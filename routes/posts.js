@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Post = require("../models/Post");
-const cors = require;
+
 //Gets back all the posts
 router.get("/", async (req, res) => {
   try {
